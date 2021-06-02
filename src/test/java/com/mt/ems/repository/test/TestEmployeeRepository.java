@@ -25,7 +25,7 @@ public class TestEmployeeRepository {
 	@Test
 	public void testFindAll() {
 		// List<Employee> employees = repo.findAll();
-		assertEquals(9, repo.findAll().size());
+		assertEquals(8, repo.findAll().size());
 	}
 
 }
