@@ -1,0 +1,13 @@
+server:
+  port: 8081
+  
+spring: 
+   datasource:
+    url: jdbc:mysql://127.0.0.1:3306/employeesystem_db
+    username: root
+    password: V@r$hBaby235
+    driver-class-name: com.mysql.cj.jdbc.Driver
+   jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate.ddl-auto: update
+    show_sql: true
